@@ -1,3 +1,4 @@
+﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1
@@ -9,7 +10,6 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             Assert.AreEqual(1, 2);
-
         }
     }
 }
