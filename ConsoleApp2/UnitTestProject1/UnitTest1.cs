@@ -9,7 +9,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             Program.Decode("aaaaaaaaaaaa");
-            Assert.AreEqual(1, 1);
+            Assert.AreEqual(1, 2);
 
         }
     }
