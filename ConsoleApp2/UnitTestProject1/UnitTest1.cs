@@ -1,6 +1,5 @@
-﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using ConsoleApp2;
 namespace UnitTestProject1
 {
     [TestClass]
@@ -9,7 +8,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(1, 1);
+            Program.Decode("aaaaaaaaaaaa");
+
         }
     }
 }
